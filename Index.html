@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online Helado</title>
+  <!--Titulo navegador-->
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <!--Link iconos usados-->
+  <link rel="icon" type="image/png" href="img/img_shop2.jpg">
+  <!--imagen en ek titulo de la pagina superior izqueirda-->
+</head>
+
+<body>
+  <header class="main-header">
+    <!--Etiqueta parte superior-->
+    <div class="container container--flex">
+      <!--Delimitar el contenido de la pagina-->
+      <div class="main-header__container">
+        <h1 class="main-header__title">TU HELADO</h1>
+        <!--Titulo superior-->
+        <span class="icon-menu fas fa-bars" id="btn-menu"></span>
+        <!--icono menu-->
+        <nav class="main-nav" id="main-nav">
+          <ul class="menu">
+            <!--5 opciones en el menu-->
+            <a href="./index.html" class="menu__item"><li class="menu__link">Inicio</li></a>
+            <a href="./aboutus.html" class="menu__item"><li class="menu__link">Sobre nosostros</li></a>
+            <a href="./contact.html" class="menu__item"><li class="menu__link">Contacto</li></a>
+          </ul>
+        </nav>
+        <!--enlace navegación menu-->
+      </div>
+      <div class="main-header--container">
+        <!--Delimitar el contenido de la pagina-->
+        <span class="main-header__txt">Neceitas ayuda</span>
+        <!--Primer texto-->
+        <p class="main-header__txt"><i class="fas fa-phone"></i> llama +57 123456789</p>
+        <!--Texto numero cel-->
+      </div>
+      <div class="main-header__container">
+        <i class="fas fa-user"></i>
+        <!--icono persona-->
+        <a href="" class="main-header__btn"> Mi carrito<i class="fas fa-shopping-cart"></i></a>
+        <!--icono y texto my cart-->
+        <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+        <!--busqueda e icono-->
+      </div>
+    </div>
+  </header>
+
+  <div class="container-slider">
+    <!-- Contenedor de las imagenes en slider-->
+    <div class="slider" id="slider">
+      <div class="slider__section">
+        <img src="img/img1.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Binvenido al mundo del helado</h2>
+          <p class="slider__txt">Descuentos de hasta 50%</p>
+          <a href="" class="btn-shop">compra ahora</a>
+        </div>
+      </div>
+
+      <div class="slider__section">
+        <img src="img/img2.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Binvenido al mundo del helado</h2>
+          <p class="slider__txt">Descuentos de hasta 50%</p>
+          <a href="" class="btn-shop">compra ahora</a>
+        </div>
+      </div>
+
+      <div class="slider__section">
+        <img src="img/heladosa.jpeg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Binvenido al mundo del helado</h2>
+          <p class="slider__txt">Descuentos de hasta 50%</p>
+          <a href="" class="btn-shop">compra ahora</a>
+        </div>
+      </div>
+
+      <div class="slider__section">
+        <img src="img/POS3.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">Binvenido al mundo del helado</h2>
+          <p class="slider__txt">Descuentos de hasta 50%</p>
+          <a href="" class="btn-shop">compra ahora</a>
+        </div>
+      </div>
+    </div>
+    <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+    <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+  </div>
+
+  <main class="main">
+    <h2 class="main-title">TUS SABORES FAVORITOS</h2>
+    <section class="container-products">
+      <!--Seccion de los productos con su precio-->
+      <div class="product">
+        <img src="img/mango.jpg" alt="" class="product__img">
+        <div class="product__description">
+          <h3 class="product__title">Helado con mango</h3>
+          <span class="product__price">5000 $</span>
+        </div>
+        <i class="product__icon fas fa-cart-plus"></i>
+      </div>
+      <div class="product">
+        <img src="img/suela.jpg" alt="" class="product__img">
+        <div class="product__description">
+          <h3 class="product__title">Helado sabor zapote</h3>
+          <span class="product__price">5000 $</span>
+        </div>
+        <i class="product__icon fas fa-cart-plus"></i>
+      </div>
+      <div class="product">
+        <img src="img/metal.jpg" alt="" class="product__img">
+        <div class="product__description">
+          <h3 class="product__title">Helado sabor banano</h3>
+          <span class=" product__price">5000 $</span>
+        </div>
+        <i class="product__icon fas fa-cart-plus"></i>
+      </div>
+      <div class="product">
+        <img src="img/mora.jpg" alt="" class="product__img">
+        <div class="product__description">
+          <h3 class="product__title">Helado sabor mora</h3>
+          <span class="product__price">5000 $</span>
+        </div>
+        <i class="product__icon fas fa-cart-plus"></i>
+      </div>
+    </section>
+    <section class="container__clockDown">
+      <!-- <div class="product"> -->
+        <!-- <img src="img/img_shop3.jpg" alt="" class="product__img"> -->
+        <div>
+            <h1 class="title-clockDown">Proximos descuentos en helados</h1>
+        </div>
+        </h1>
+        <div class="">
+          <div>
+            <h1 id="clockDays">00</h1>
+            <p>Días</p>
+          </div>
+          <div>
+            <h1 id="clockHours">00</h1>
+            <p>Horas</p>
+          </div>
+          <div>
+            <h1 id="clockMinutes">00</h1>
+            <p>Minutos</p>
+          </div>
+          <div>
+            <h1 id="clockSeconds">00</h1>
+            <p>Segundos</p>
+          </div>
+        </div>
+      <!-- </div> -->
+    </section>
+    <section class="container__testimonials">
+      <h2 class="section__title">Testimonios</h2>
+      <h3 class="testimonial__title">Ana maria</h3>
+      <p>
+        Aunque el nombre de los helados suenan y para apetecibles, los sabores son muy buenos
+        y originales, los recomiendo para quienes quieren probar algo nuevo
+      </p>
+    </section>
+    <section class="container-editor">
+      <!--Cotenedor imagenes parte inferior-->
+      <div class="editor__item">
+        <img src="img/AAAW.jpg" alt="" class="editor__img">
+        <p class="editor__circle">ESCOGE TU FAVORITO</p>
+      </div>
+      <div class="editor__item">
+        <img src="img/parte 2.jpg" alt="" class="editor__img">
+        <p class="editor__circle">ESCOGE TU FAVORITO</p>
+      </div>
+      <div class="container-tips">
+        <div class="tip">
+          <i class="far fa-hand-paper"></i>
+          <h2 class="tip__title">Satisfacción garantizada</h2>
+          <div class="tip__txt">Todas tus compras a través de nuestro portal cuentan 
+            con Satisfacción Garantizada.
+          </div>
+          <div class="btn-shop">Compra ahora</div>
+        </div>
+        <div class="tip">
+          <i class="fas fa-rocket"></i>
+          <h2 class="tip__title">Envio rapido</h2>
+          <div class="tip__txt">Contamos con un envío extra rápido para que tus helados lleguen de la mejor manera.</div>
+          <div class="btn-shop">Compra ahora</div>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <!--Parte inferior de la pagina-->
+    <div class="footer__section">
+      <h2 class="footer__title">Sobre nosotros</h2>
+      <p class="footer__txt">Bienvenidos al mundo del helado. Somos una tienda online dedicada a la venta de helados unicos, sientete libre de escoger el que mas te guste.
+</p>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Ubicación :</h2>
+      <p class="footer__txt">Medellín</p>
+      <h2 class="footer__title">Contacto</h2>
+      <p class="footer__txt">Telefono : +57 123456789 </p>
+      <p class="footer__txt">Email : tuhelado@gmail.com</p>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Links</h2>
+      <a href="./index.html" class="footer__link">Inicio</a>
+      <a href="./aboutus.html" class="footer__link">Sobre nosotros</a>
+      <a href="./contact.html" class="footer__link">Contacto</a>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Registrate para recibir nuestras ofertas</h2>
+      <p class="footer__txt">Al suscribirse a nuestra lista de correo, siempre recibirá nuestras últimas noticias y actualizaciones.</p>
+      <input type="email" class="footer__input" placeholder="Ingresa tu email">
+    </div>
+    <p class="copy">© 2022 Helados. Todos los derechos reservados | Diseñada por Gustavo, estudiante de ingeniería de la UPB</p>
+  </footer>
+  <script src="js/slider.js"></script>
+  <script src="js/main.js"></script>
+  <!--Archivo de javascript para el efecto del slider-->
+  <!--Archivo de javascript para el efecto del contador-->
+
+</body>
+
+</html>
